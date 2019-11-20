@@ -1,0 +1,6 @@
+.next/ 
+static/storybook/ 
+yarn-error.log
+node_modules
+.env
+

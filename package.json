@@ -1,0 +1,43 @@
+{
+  "name": "learn-fastify-next",
+  "version": "1.0.0",
+  "description": "Alex Learning Journey",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "install:build": "yarn install && yarn build",
+    "storybook": "start-storybook -p 8008 -s ./"
+  },
+  "keywords": [],
+  "author": "Alex Huang",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "fastify": "^2.10.0",
+    "fastify-metrics": "^4.0.9",
+    "next": "^9.1.4",
+    "prom-client": "^11.5.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/addon-info": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "@types/storybook__react": "^4.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "react-docgen-typescript-loader": "^3.4.0",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2"
+  }
+}
