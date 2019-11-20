@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "install:build": "yarn install && yarn build",
-    "storybook": "start-storybook -p 8008 -s ./"
+    "storybook": "start-storybook"
   },
   "keywords": [],
   "author": "Alex Huang",
