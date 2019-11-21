@@ -1,11 +1,21 @@
 import { makeStyles } from '@material-ui/styles';
 import Link from 'next/link';
 import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles({
   root: {
     backgroundColor: 'pink',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  logo: {
+    paddingTop: '5px',
+  },
+  menuButton: {
+
   },
 });
 
@@ -14,11 +24,21 @@ function DesktopToolbar(): JSX.Element {
 
   return (
     <Toolbar className={classes.root}>
-      <Link href="/">
-        <a>
-          <img src="../../../public/images/logo.png" alt="logo" />
-        </a>
-      </Link>
+      <div className={classes.logo}>
+        <Link href="/" prefetch={false}>
+          <a>
+            <img src="/images/logo.png" alt="logo" height="50px" />
+          </a>
+        </Link>
+      </div>
+      <IconButton
+        edge="start"
+        className={classes.menuButton}
+        color="inherit"
+        aria-label="open drawer"
+      >
+        <MenuIcon />
+      </IconButton>
     </Toolbar>
   );
 }
