@@ -14,6 +14,9 @@
   "author": "Alex Huang",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.6.0",
     "await-to-js": "^2.1.1",
     "fastify": "^2.10.0",
     "fastify-metrics": "^4.0.9",
@@ -26,6 +29,7 @@
     "@babel/core": "^7.7.2",
     "@storybook/addon-info": "^5.2.6",
     "@storybook/react": "^5.2.6",
+    "@types/node": "^12.12.11",
     "@types/storybook__react": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",
